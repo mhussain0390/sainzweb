@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universty Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="eduford_img/logo.png"><img src="eduford_img/logo.png" alt="C:\Users\mhuss\OneDrive\Desktop\uni\eduford_img\logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               
+
+               <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+         </nav>
+        <h1>About Us</h1>
+    </section>
+    <!----About Us Content---->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+
+<!------------Footer------------>
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+      <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+       <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </div>
+     <p>Take the next step toward your future. Join thousands of students learning with us today.</p>
+     <p>Made with <i class="fa-regular fa-heart"></i> by Hussain Butt</p>
+</section>
+
+
+
+
+     <script>
+        var navLinks = document.getElementById('navLinks');
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";}
+     </script>
+    
+</body>
+</html>
